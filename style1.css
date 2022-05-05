@@ -1,15 +1,8 @@
-@charset "UTF-8";
-
 /* Variabes */  
 $orange: #ffa600;
 $grey:#f3f3f3;
 $white: #fff;
 $base-color:$orange ;
-
-
-
-
-
 
 /* Mixin's */  
 @mixin transition {
@@ -67,4 +60,3 @@ $base-color:$orange ;
         color:$base-color;
         }
     }
-    
