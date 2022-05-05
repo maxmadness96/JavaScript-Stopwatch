@@ -2,18 +2,16 @@ html {
     background-color: rgb(43, 239, 239);
 }
 
+body {
+    height: 100%;
+}
+
+.wrapper {
+    border-radius: 100px;
+    border-color: rgb(0, 0, 0);
+    height: 350px;
+}
+
 .container {
     background-color: rgb(224, 190, 148);
 }
-
-@mixin transition {
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-    }
-    @mixin corners ($radius) {
-    -moz-border-radius: $radius;
-    -webkit-border-radius: $radius;
-    border-radius: $radius; 
-    -khtml-border-radius: $radius; 
-    }
