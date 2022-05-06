@@ -1,67 +1,74 @@
 /* Mixin's */  
 @mixin transition {
--webkit-transition: all 0.5s ease-in-out;
--moz-transition: all 0.5s ease-in-out;
-transition: all 0.5s ease-in-out;
-}
-@mixin corners ($radius) {
--moz-border-radius: $radius;
--webkit-border-radius: $radius;
-border-radius: $radius; 
--khtml-border-radius: $radius; 
-}
-
-body {
-height:100%;
-font-family: 'Fantasy', 'Luminari', 'Brushstroke';
-}
-
-.wrapper {
-width: 800px;
-margin: 30px auto;
-text-align:center;
-}
-
-h1, h2, h3 {
-  font-family: 'Fantasy', 'Luminari', 'Brushstroke';
-  font-weight: 100;
-  font-size: 2.6em;
-}
-
-#seconds, #tens{
-  font-size:4em;
-  color: rgb(255, 255, 255);
-}
-
-
-/* My added Styles */
-html {
-    background-color: rgb(72, 122, 131);
-}
-
-h1, h2 {
-    color: rgb(255, 255, 255);
-}
-
-button {
-    width: 120px;
-    height: 45px;
-    border: inset;
-    font-style: italic; 
-    color: rgb(255, 255, 255); 
-    font-family: 'WildWest';
-    font-size: 5em;
-    border-radius: 15px;
-}
-
-button#button-start {
-    background-color: rgb(43, 160, 51);
-}
-
-button#button-stop {
-    background-color: rgb(192, 44, 44);
-}
-
-button#button-reset {
-    background-color: rgb(72, 122, 131);
-}
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    }
+    @mixin corners ($radius) {
+    -moz-border-radius: $radius;
+    -webkit-border-radius: $radius;
+    border-radius: $radius; 
+    -khtml-border-radius: $radius; 
+    }
+    
+    body {
+    height:100%;
+    font-family: 'Fantasy', 'Luminari', 'Brushstroke';
+    font-style: oblique;
+    margin: 10%;
+    }
+    
+    .wrapper {
+    width: 800px;
+    margin: 30px auto;
+    text-align:center;
+    border: outset 10px black;
+    padding: 0 10px 10px 0;
+    }
+    
+    h1, h2, h3 {
+      font-family: 'Fantasy', 'Luminari', 'Brushstroke';
+      font-weight: 100;
+      font-size: 2.6em;
+    }
+    
+    #seconds, #tens{
+      background-color: black;
+      font-size: 4em;
+      color: rgb(255, 255, 255);
+      border: outset;
+    }
+    
+    
+    /* My added Styles */
+    html {
+        background-color: rgb(46, 62, 119);
+    }
+    
+    h1, h2 {
+        color: rgb(255, 255, 255);
+    }
+    
+    button {
+        width: 120px;
+        height: 45px;
+        border: inset;
+        font-style: italic; 
+        color: rgb(255, 255, 255); 
+        font-family: 'WildWest';
+        font-size: 1.5em;
+        border-radius: 15px;
+    }
+    
+    button#button-start {
+        background-color: rgb(43, 160, 51);
+    }
+    
+    button#button-stop {
+        background-color: rgb(192, 44, 44);
+    }
+    
+    button#button-reset {
+        background-color: rgb(72, 122, 131);
+    }
+    
