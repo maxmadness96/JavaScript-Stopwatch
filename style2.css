@@ -11,10 +11,10 @@ h1 , p {
 }
 
 #seconds, #tens{
-  border-style: double;
-  border-color: rgb(135, 133, 245);
-  font-size:6em;
-  color: rgb(69, 182, 235);
+  border-style: inset;
+  border-color: rgb(11, 30, 59);
+  font-size: 5em;
+  color: rgb(255, 255, 255);
 }
 
 .wrapper {
@@ -28,15 +28,20 @@ h1 , p {
     
 }
 
-button#pauseTimer {
+/*Buttons Styles*/
+.buttons button#pauseTimer {
     background-color: rgb(210, 61, 61);
 }
 
-button#startTimer {
+.buttons {
+    border-radius: 5%;
+}
+
+.buttons button#startTimer {
     background-color: rgb(rgb(39, 185, 39);
 }
 
-button#resetTimer {
+.buttons button#resetTimer {
     background-color: rgb(200, 200, 89);
 }
   
